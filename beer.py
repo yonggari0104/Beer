@@ -99,7 +99,10 @@ beer['style'].value_counts()[:15].plot(kind = "bar", color = "red")
 plt.title("Most Common Beer Styles")
 
 
+
 #%%
+
+
 
 sns.countplot(data=beer,y='ounces')
 
